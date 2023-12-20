@@ -1,0 +1,145 @@
+.Topbar_Container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    .Logo{
+        margin: 20px 25px;
+
+        img{
+            margin: 20px 5px;
+            width: 160px;
+            height: 70.19px;
+            flex-shrink: 0;
+        }
+    }
+
+    .Topbar_Links{
+
+        .Link_head{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 33px;
+            list-style: none;
+            li{
+                .Link{
+                    text-decoration: none;
+                    color: #C4BD54;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px; 
+                }
+            }
+        }
+    }
+
+    .Lang{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-inline-end: 30px;
+
+        .circle{
+            margin-inline-end: 18px;
+
+        }
+        .icon{
+            position: absolute;
+            top: 15px;
+            left: 14px;
+            margin-inline-end: 10px;
+        }
+        .lang_Button{
+            .dropdown-toggle::after {
+                display: none !important; 
+              }
+            .DropBtn{
+                display: flex;
+                border-color: #C4BD54;
+                padding: 16px 25px;
+                justify-content: flex-end;
+                align-items: center;
+                gap:8px;
+                border-radius: 8px;
+                background: #C4BD54;
+                .Dropdown-Menu{
+                    width: 20px;
+                } 
+            }
+            .DropItem{
+                text-align: center;
+
+            }
+        }
+
+    }
+    }
+
+    .title{
+        text-align: center;
+        margin-top: 100px;
+        img{
+            margin: 5px;
+        }
+        .Logo_title{
+            margin: 25px 5px;
+            color: var(--Neutral-Colors-White, #FFF);
+            text-align: center;
+            color: #A3A073;
+            font-family: Poppins;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 700;
+            background: linear-gradient(180deg, #FBF6AC 0%, #999561 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+    }
+
+    .Contact_us{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       .OurBtn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 226px;
+            height: 66px;
+            padding: 0px 69px 0px 68px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+            border-radius: 8px;
+            background-color: #A3A073;
+            color: #FFF;
+            margin-inline-end: 20px;
+            margin-block-start: 20px;
+            font-size: 11px;
+            img{
+                margin-inline-start: 3px;
+
+
+            }
+        }
+        .contactBTn{
+            width: 226px;
+            height: 66px;
+            padding: 0px 69px 0px 68px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+            border: 1.5px solid var(--Neutral-Colors-White, #FFF);
+            margin-block-start: 20px;
+            background-color: #fff4;
+        }
+
+    }
