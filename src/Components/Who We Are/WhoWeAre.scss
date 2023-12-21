@@ -1,0 +1,131 @@
+.Head{
+    margin-top: 150px;
+    .Title_Section{
+        text-align: center;
+        margin-top: 30px;
+        position: relative;
+        .image{
+            position: absolute;
+            top: 44%;
+            left: 46%;
+            h3{
+                color: #A3A073;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+    
+    
+            }
+    
+           
+        }
+
+
+    }
+
+
+
+//title group TRILLIONI GROUP
+    .Tile_Group{
+        margin-top: 20px;
+        h3{
+            height: 53px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: rgba(163, 160, 115, 0.37);
+            width: 442px;
+            line-height: 55px;
+            text-align: center;
+        }
+
+        .Descreption_Group{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+
+            .Descreption_item{
+
+            p{
+                margin-inline-start: -150px;
+                color: #666;
+                text-align: justify;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px; /* 250% */
+            }
+            .Desc_Btn{
+                margin-top: 30px;
+                margin-inline-start: -155px;
+                display: inline-flex;
+                height: 66px;
+                padding: 0px 48px 0px 47px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border-radius: 8px;
+                background: #A3A073;
+                border: 0.5px solid #A3A073;
+                color: #FFFFFF;
+                font-size: 18px;
+                text-align: center;
+                img{
+                    margin-inline-start: 3px;
+                }
+
+
+
+
+            }
+            }
+
+            .Descreption_img{
+                .images{
+                    position: relative;
+                    margin-inline-end: 30px;
+                    right: 56px;
+                    bottom: 160px;
+                
+                .img_one{
+                    width: 295.516px;
+                    height: 297.077px;
+                    flex-shrink: 0;
+                    fill: #A3A073;
+                    position: absolute;
+                    top: 29px;
+                    right: -270px;
+                
+
+                }
+
+                .img_two{
+                    width: 295.516px;
+                    height: 297.077px;
+                    flex-shrink: 0;
+                    fill: #A3A073;
+                    position: absolute;
+                    bottom: -270px;
+                    left: 25px;
+                
+
+                }
+                .img_three{
+                    width: 295.516px;
+                    height: 297.077px;
+                    flex-shrink: 0;
+                    fill: #A3A073;
+                    position: absolute;
+
+                }
+            }
+            }
+        }
+
+    }
+}

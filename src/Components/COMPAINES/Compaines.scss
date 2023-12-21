@@ -1,0 +1,126 @@
+.Head_Compaines{
+    margin-top: 150px;
+    .Title_Section{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        position: relative;
+
+        .image{
+            position: absolute;
+            top: 43%;
+            left: 41%;
+                    h3{
+                color: #A3A073;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+    
+    
+            }
+    
+           
+        }
+
+
+    }
+
+// start card
+
+    .Compaines_Card_container{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .Compaines_Card{
+            width: 387px;
+            height: 370px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 0.5px solid rgba(163, 160, 115, 0.45);
+            background: #FFF;
+            .image{
+                text-align: center;
+                margin: 25px 3px;
+                .img3{
+                    width: 235px;
+                    height: 144px;
+                    flex-shrink: 0;
+
+
+                }
+
+                img{
+                    width: 130.662px;
+                    height: 133px;
+                    flex-shrink: 0;
+                }
+    
+
+            }
+
+            .content{
+                margin-inline-start: 15px;
+                h4{
+                    color: #A3A073;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 18px; 
+                    margin: 10px 5px;
+                    margin-inline-start: 10px;
+                    align-items: start;
+
+            }
+                 P{
+                    color: #AFAFAF;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 21px; /* 150% */
+                    margin-inline-start: 10px;
+                    align-items: start;
+
+
+            }
+                .visit{
+                    display: flex;
+                    align-items: center;
+
+
+                    p{
+                        color: #161618;
+                            font-feature-settings: 'clig' off, 'liga' off;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 18px; /* 128.571% */
+
+                    }
+                
+                    img{
+                        width: 12px;
+                        height: 12px;
+                        padding: 1.77px 1.5px;
+                        flex-shrink: 0;
+                        margin-bottom: 15px;
+
+                        
+                        }
+        }
+                }
+
+    }
+
+}
+
+}
