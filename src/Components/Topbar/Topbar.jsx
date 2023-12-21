@@ -39,7 +39,9 @@ const Topbar = () => {
                 <li> <Link to="About" className='Link'>{t('About')}</Link></li>
                 <li> <Link className='Link'> {t('Compaines')}</Link></li>
                 <li> <Link className='Link'>{t('Contact')}</Link></li>
+                
             </ul>
+            <hr />
     
         </div>
         

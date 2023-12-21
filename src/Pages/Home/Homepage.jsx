@@ -4,6 +4,7 @@ import Topbar from '../../Components/Topbar/Topbar'
 import WhoWeAre from '../../Components/Who We Are/WhoWeAre'
 import Compaines from '../../Components/COMPAINES/Compaines'
 import ContactUs from '../../Components/ContactUs/ContactUs'
+import Footer from '../../Components/Footer/Footer'
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <WhoWeAre />
       <Compaines />
       <ContactUs />
+      <Footer />
       
     </header>
 
