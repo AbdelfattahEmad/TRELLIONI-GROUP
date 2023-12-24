@@ -4,7 +4,7 @@ import { Suspense, useEffect } from 'react';
 import Homepage from './Pages/Home/Homepage';
 import {Routes, Route} from "react-router-dom";
 import i18n from './i18n';
-import AboutPage from './Pages/About/AboutPage';
+import About from './Pages/About/About';
 
 
 
@@ -39,8 +39,8 @@ function App() {
     <Suspense>
       <Routes>
             <Route index element={<Homepage />} />
-            <Route path='Home' element={<Homepage />} />
-            <Route path='About' element={<AboutPage />} />
+            <Route path='/Home' element={<Homepage />} />
+            <Route path='/About' element={<About />} />
         </Routes>
 
 

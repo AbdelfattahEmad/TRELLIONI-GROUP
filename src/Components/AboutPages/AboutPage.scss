@@ -1,0 +1,118 @@
+.AboutPage{
+    margin-top: 90px;
+    .Title{
+        text-align: center;
+        h3{
+            text-align: center;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px; 
+            margin: 130px 5px;
+
+
+            span{
+                  color: #A3A073;
+                  font-family: Poppins;
+
+
+            }
+        }
+    }
+
+
+    .Descreption_Group{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+
+        .Descreption_item{
+        p{
+            margin-inline-start: -225px;
+            color: #191919;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 31px;
+            margin-top: 20px;
+            
+            span{
+                border-radius: 4px;
+                background: rgba(163, 160, 115, 0.20);
+            }
+        }
+        .Desc_Btn{
+            margin-top: 30px;
+            margin-inline-start: -155px;
+            display: inline-flex;
+            height: 66px;
+            padding: 0px 48px 0px 47px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #A3A073;
+            border: 0.5px solid #A3A073;
+            color: #FFFFFF;
+            font-size: 18px;
+            text-align: center;
+            img{
+                margin-inline-start: 3px;
+            }
+
+
+
+
+        }
+        }
+
+        .Descreption_img{
+
+            .images{
+                position: relative;
+
+                margin-inline-end: 200px;
+
+                right: 56px;
+                bottom: 160px;
+            
+            .img_one{
+                width: 450px;
+                height: 600px;
+                flex-shrink: 0;
+                fill: #A3A073;
+                position: absolute;
+                top: 25px;
+                right: -425px;
+                                                            
+
+            }
+
+            .img_two{
+                width: 450px;
+                height: 600px;
+                flex-shrink: 0;
+                fill: #A3A073;
+                position: absolute;
+                bottom: -575px;
+                left: 25px;
+                                    
+
+            }
+            .img_three{
+                width: 450px;
+                height: 600px;
+                flex-shrink: 0;
+                fill: #A3A073;
+                position: absolute;
+
+            }
+        }
+        }
+    }
+
+}

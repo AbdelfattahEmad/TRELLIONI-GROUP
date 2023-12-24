@@ -6,22 +6,38 @@ footer{
     background-size: cover;
     background-position: 50% 50%;
     background-image: url(../../assets/images/backg.png);
-    background: rgba(0,0,0,0.9);
+    &::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+    }
+
     .Head_Container{
         padding: 20px 20px;
+        position: relative;
     .Head{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         margin-top: 50px;
         .Logo{
+            position: relative;
+
             img{
                 width: 133px;
                 height: 134.145px;
                 flex-shrink: 0;
+                position: relative;
+
             }
         }
         .Content{
+            position: relative;
+
             h4{
                 color: #A3A073;
                 font-feature-settings: 'clig' off, 'liga' off;
@@ -32,27 +48,32 @@ footer{
                 line-height: 18px; /* 90% */
 
             }
+
             hr{
                 width: 83px;
                 height: 4px;
-                background: #A3A073;
-
-
+                background-color: #A3A073;
             }
-            p{
-                color: #A3A073;
-                font-feature-settings: 'clig' off, 'liga' off;
+            .Content_items{
+                padding:0;
+                margin: 0;
 
-                /* body2 */
-                font-family: Poppins;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 18px; /* 100% */
+                li{
+                    color: #A3A073;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    list-style: none;
+                    line-height: 18px;
+                    margin-top: 10px;
+                    padding: 0; 
+
+                }
             }
         }
         .Our_Compaines{
-
             h4{
                 color: #A3A073;
                 font-feature-settings: 'clig' off, 'liga' off;
@@ -70,21 +91,27 @@ footer{
 
 
             }
-            p{
-                color: #A3A073;
-                font-feature-settings: 'clig' off, 'liga' off;
 
-                /* body2 */
-                font-family: Poppins;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 18px; /* 100% */
+            .Compaines_item{
+                padding:0;
+                margin: 0;
+                li{
+                    color: #A3A073;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px; 
+                    list-style: none;
+                    margin-top: 10px;
+                    padding: 0; 
+
+                }
             }
 
         }
         .social{
-
             h3{
                 color: #A3A073;
                 font-feature-settings: 'clig' off, 'liga' off;
@@ -100,9 +127,21 @@ footer{
                 height: 4px;
                 background: #A3A073;
             }
+            .images{
+                display: flex;
+                align-items: center;
+                padding: 0;
+                margin: 0;
+                li{
+                    list-style: none;
+                    margin-inline-end: 5px;
+                }
+            }
         }
     }
 }
+
+
 
 .hr{
     height: 2px;
@@ -120,6 +159,7 @@ footer{
     text-decoration-line: underline;
     text-align: center;
     padding: 10px 5px 20px 5px;
+    position: relative;
 
 }
 }

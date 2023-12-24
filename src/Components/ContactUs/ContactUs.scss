@@ -6,6 +6,15 @@
         margin-top: 30px;
         margin-bottom: 40px;
         position: relative;
+        h2{
+            font-size: 140px;
+            color: #eee;
+            padding: 20px 6px;
+            text-align: center;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+        }
 
         .image{
             position: absolute;
@@ -19,8 +28,6 @@
                 font-style: normal;
                 font-weight: 600;
                 line-height: 18px;
-    
-    
             }
     
            
@@ -75,10 +82,9 @@
             .Btn_Input{
                 display: flex;
                 align-items: center;
-                
                 .Btn{
                     display: inline-flex;
-                    color: #FFF;
+                    color: #161618;
                     font-feature-settings: 'clig' off, 'liga' off;
                     font-family: Poppins;
                     font-size: 18px;
@@ -91,9 +97,24 @@
                     align-items: center;
                     flex-shrink: 0;
                     border-radius: 8px;
-                    background: #A3A073;
+                    background:#fff ;
                     border: 0.5px solid #A3A073;
                     text-align: start;
+                    svg{
+                        path{
+                            stroke:#161618;
+                            margin: 1px;
+                        }
+                    }
+
+                &:hover{
+                    background-color: #A3A073;
+                    color: #fff;
+                }
+                &:hover svg path {
+                    stroke: #eee;
+
+                }
     
     
     
@@ -115,9 +136,15 @@
 
                 .icon{
                     border: 1px solid #f5f2f2;
-                    padding: 0px 0px;
-                    background-color: #eee;
-                    margin-inline-end: 6px;
+                    padding: 10px;
+                    background-color: #F3F3ED;
+                    margin-inline-end: 24px;
+                    border-radius: 10px;
+                    svg{
+                        path{
+                            fill: #A3A073;
+                        }
+                    }
 
                 
                     img{

@@ -5,12 +5,15 @@ import Facebook from "../../assets/images/Facebook.png"
 import Instagram from "../../assets/images/Instagram.png"
 import LinkedIn from "../../assets/images/LinkedIn.png"
 import YouTube from "../../assets/images/YouTube.png"
+import { useTranslation } from 'react-i18next'
 
 
 
 
 
 const Footer = () => {
+
+    const {t}=useTranslation()
   return (
     <footer>
          
@@ -19,35 +22,45 @@ const Footer = () => {
             <div className='Logo'>
                 <img src={Layer2} alt='logo' />
             </div>
+
             <div className='Content'>
-                <h4>Content</h4>
+            <h4>{t("Content")}</h4>
                 <hr />
-                <p>Home</p>
-                <p>About</p>
-                <p>Compaines</p>
-                <p>Contact </p>
+                <ul className='Content_items'>
+                    <li>{t("About")}</li>
+                    <li> {t("Compaines")}</li>
+                    <li> {t("Contact")}</li>
+                </ul>
 
             </div>
+
+
             <div className='Our_Compaines'>
-            <h4>OUR COMPAINES</h4>
+            <h4>{t("OUR COMPAINES ")}</h4>
                 <hr />
-                <p>Trillioni Sesame</p>
-                <p>Trillioni Chad</p>
-                <p>Trillioni Pharma</p>
-                <p>Trillionaire Signals </p>
+                <ul className='Compaines_item'>
+                    <li> {t("Trillioni Sesame")}</li>
+                    <li> {t("Trillioni Chad")}</li>
+                    <li> {t("Trillioni Pharma")}</li>
+                    <li> {t("Trillionaire Signals")}</li>
+                </ul>
 
             </div>
+
+
             <div className='social'>
-                <h3>SOCIAL MEDIA</h3>
+
+
+                <h3>{t("SOCIAL MEDIA")}</h3>
                 <hr />
-                <div className='images'>
-                    <img src={Facebook} alt='FaceBook' />
-                    <img src={Instagram} alt='instgram' />
-                    <img src={LinkedIn} alt='LinkedIn' />
-                    <img src={YouTube} alt='Youtube' />
 
+                <ul className='images'>
+                    <li><img src={Facebook} alt='FaceBook' /></li>
+                    <li><img src={Instagram} alt='instgram' /></li> 
+                    <li><img src={LinkedIn} alt='LinkedIn' /></li>
+                    <li><img src={YouTube} alt='Youtube' /></li>
 
-                </div>
+                </ul>
 
             </div>
 
@@ -56,7 +69,8 @@ const Footer = () => {
         </div>
 
         <hr className='hr'/>
-        <p className='p'>Copyright © Trillioni Group | All Rights Reserved | Terms and Conditions | Privacy Policy</p>
+        
+        <p className='p'>{t("Copyright © Trillioni Group | All Rights Reserved | Terms and Conditions | Privacy Policy")}</p>
         
         
         </footer>

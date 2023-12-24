@@ -4,6 +4,10 @@
     display: flex;
     align-items:center;
     justify-content: space-between;
+    position: relative;
+    
+
+    
     .Logo{
         margin: 20px 25px;
 
@@ -47,17 +51,9 @@
     .Lang{
         display: flex;
         align-items: center;
-        position: relative;
         margin-inline-end: 30px;
 
-        .circle{
-            margin-inline-end: 18px;
-
-        }
         .icon{
-            position: absolute;
-            top: 15px;
-            left: 14px;
             margin-inline-end: 10px;
         }
         .lang_Button{
@@ -67,7 +63,7 @@
             .DropBtn{
                 display: flex;
                 border-color: #C4BD54;
-                padding: 16px 25px;
+                padding: 11px 22px;
                 justify-content: flex-end;
                 align-items: center;
                 gap:8px;
@@ -88,6 +84,7 @@
 
 
     .title{
+        position: relative;
         text-align: center;
         margin-top: 35px;
         img{
@@ -113,54 +110,86 @@
 
 
     .Contact_us{
+        position: relative;
         display: flex;
         justify-content: center;
         text-align: center;
+
        .OurBtn{
             display: flex;
             align-items: center;
             justify-content: center;
             width: 226px;
             height: 66px;
-            padding: 0px 69px 0px 68px;
-            justify-content: center;
-            align-items: center;
+            padding: 0px 54px 0px 53px;
             flex-shrink: 0;
             box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
-            border-radius: 8px;
-            background-color: #A3A073;
-            color: #FFFFFF;
             margin-inline-end: 20px;
             margin-block-start: 20px;
-            font-size: 11px;
-            P{
-                margin-inline-end: 2px;
-                margin-bottom: 5px;
+            font-size: 14px;
+            line-height: 18px; 
+            border-radius: 8px;
+            background: var(--Neutral-Colors-White, #FFF);
+            color: #161618;
+            border: 1px solid #FFF;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            
+            &:hover{
+                background-color: #A3A073;
+                border: 1px solid #A3A073;
+                color: #FFFFFF;
             }
-            img{
-                margin-inline-start: 3px;
+            &:hover svg path{
+                stroke: #fff;
+
+            }
+
+            svg{
+                margin-top: 3px;
+                path{
+                    stroke: #161618;
+                   }
 
 
+
+                }
             }
         }
         .contactBTn{
             width: 226px;
             height: 66px;
-            padding: 0px 69px 0px 68px;
-            justify-content: center;
-            align-items: center;
+            padding: 0px 54px 0px 53px;
             flex-shrink: 0;
-            border-radius: 8px;
             box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
-            border: 1.5px solid var(--Neutral-Colors-White, #FFF);
+            margin-inline-end: 20px;
             margin-block-start: 20px;
-            background-color: #fff;
-            border-color: #fff;
+            font-size: 16px;
+            line-height: 18px; 
+            border-radius: 8px;
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #FFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px; /* 112.5% */
+            
+
+            &:hover{
+                background-color: #A3A073;
+                border: 1px solid #A3A073;
+                color: #FFFFFF;
+            }
+
         }
 
-    }
+    
 
     .Arrow{
+        position: relative;
         text-align: center;
         margin: 50px;
     }

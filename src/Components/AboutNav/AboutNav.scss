@@ -1,0 +1,91 @@
+.Nav_Container{
+    .Topbar_Container{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        background: #A3A073;
+        height: 100px;
+
+        .Logo{
+            margin: 20px 25px;
+    
+            img{
+                margin: 20px 5px;
+                width: 160px;
+                height: 70.19px;
+                flex-shrink: 0;
+            }
+        }
+    
+        .Topbar_Links{
+            color: #FFFFFF;
+
+            .Link_head{
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 33px;
+                list-style: none;
+                li{
+                    .Link{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 18px; 
+                    }
+                }
+            }
+            hr{
+                width: 52px;
+                height: 2px;
+                flex-shrink: 0;
+            }
+    
+        }
+    
+        .Lang{
+            display: flex;
+            align-items: center;
+            margin-inline-end: 30px;
+    
+            .icon{
+                margin-inline-end: 10px;
+                font-weight: 100;
+
+
+            }
+            .lang_Button{
+                .dropdown-toggle::after {
+                    display: none !important; 
+                  }
+                .DropBtn{
+                    display: flex;
+                    border-color: #C4BD54;
+                    padding: 11px 22px;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap:8px;
+                    border-radius: 8px;
+                    color: #A3A073;
+                    background: #FFFFFF;
+                    .Dropdown-Menu{
+                        width: 20px;
+                    } 
+                }
+                .DropItem{
+                    text-align: center;
+    
+                }
+            }
+    
+        }
+        }
+    
+    
+
+
+}

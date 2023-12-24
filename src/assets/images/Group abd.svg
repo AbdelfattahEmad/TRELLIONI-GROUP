@@ -1,57 +1,4 @@
-import React from 'react'
-import "./WhoWeAre.scss"
-import Frame from "../../assets/images/Frame.png"
-import Frame1 from "../../assets/images/frame1.png"
-import Arrow from "../../assets/images/Arrow.png"
-import { useTranslation } from 'react-i18next'
-
-
-
-const WhoWeAre = () => {
-  const {t} = useTranslation()
-
-  return (
-    <div className='Head'>
-        <div className='Title_Section'>
-          <h2>  {t("WHO WE ARE")}</h2>
-
-            <div className='image'>
-            <h3>{t("WHO WE ARE")}</h3>
-
-            </div>
-
-        </div>
-
-
-        <div className='Tile_Group'>
-
-            <h3> {t("TRILLIONI GROUP")}</h3>
-        </div>
-
-
-        <div className='Desc_Head'>
-
-        <div className='Desc'>
-          <p>{t("Trillioni Group company operates in many fields and mainly targets African")} <br />
-          {t(" markets along with other markets as it has many partners in many African")}<br />
-
-          {t("countries. The company's main goal is to build bridges of integration and")}<br />
-          {t("interdependence with markets in Africa by providing the products and")}<br />
-          {t("services required in these promising countries and helping in upgrading the")}<br />
-          {t("commercial market. Because of its bright future and its high ambitions ...")}<br /></p>
-
-          <button className='Btn' >
-            {t("Know More")} <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9.4043 2.65435L15.7499 9L9.4043 15.3457" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M15.7499 9L2.25 9" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        </button>
-        </div>
-
-
-        <div className='Image_Desc'>
-
-        <svg width="456" height="456" viewBox="0 0 456 456" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="456" height="456" viewBox="0 0 456 456" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="70.4317" width="385.568" height="385.568" rx="8" fill="#A3A073" fill-opacity="0.13"/>
 <rect x="70.4316" width="385.568" height="385.568" rx="8" fill="#A3A073" fill-opacity="0.13"/>
 <rect x="35.7158" y="35.7158" width="384.568" height="384.568" rx="7.5" fill="white"/>
@@ -113,24 +60,3 @@ const WhoWeAre = () => {
 <path d="M178.91 324.304H174.085C174.009 324.304 173.947 324.366 173.947 324.442V331.254C173.947 331.33 174.009 331.392 174.085 331.392H178.91C178.986 331.392 179.048 331.33 179.048 331.254V324.442C179.048 324.366 178.986 324.304 178.91 324.304Z" fill="#A3A073"/>
 <path d="M221.57 329.449C221.666 330.952 222.232 332.633 224.103 332.645C226.4 332.66 228.697 332.665 230.994 332.66C233.065 332.655 233.485 331.162 233.735 329.445C233.746 329.367 233.791 329.328 233.868 329.328H238.567C238.601 329.328 238.635 329.342 238.659 329.366C238.684 329.39 238.698 329.423 238.698 329.457C238.722 332.252 238.238 337.329 235.252 338.703C234.773 338.924 234.037 339.036 233.045 339.041C229.402 339.059 225.759 339.059 222.116 339.039C221.311 339.036 220.707 338.964 220.307 338.824C217.136 337.722 216.583 332.257 216.6 329.42C216.6 329.359 216.63 329.328 216.691 329.328H221.444C221.476 329.328 221.507 329.341 221.531 329.363C221.554 329.386 221.568 329.417 221.57 329.449Z" fill="#A3A073"/>
 </svg>
-
-
-
-        </div>
-
-
-        </div>
-
-
-
-
-        </div>
-
-
-
-
-
-  )
-}
-
-export default WhoWeAre
