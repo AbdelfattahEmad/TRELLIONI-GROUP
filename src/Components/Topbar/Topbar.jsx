@@ -11,6 +11,9 @@ import impor from "../../assets/images/impor.png"
 const Topbar = () => {
 
     const {t} = useTranslation()
+
+    const [lang, setLang] = useState(localStorage.getItem('i18nextLng'));
+
   
     useEffect(() => {
       i18next.on('languageChanged', (lng) => {
@@ -132,13 +135,16 @@ const Topbar = () => {
             <ul className='Link_head'>
                 <li> <Link to="/Home" className='Link'>{t('Home')}</Link></li>
                 <li> <Link to="/About" className='Link'>{t('About')}</Link></li>
-                <li> <Link className='Link'> {t('Compaines')}</Link></li>
-                <li> <Link className='Link'>{t('Contact')}</Link></li>
+                <li> <Link to="/comp" className='Link'> {t('Compaines')}</Link></li>
+                <li> <Link to="/contact" className='Link'>{t('Contact')}</Link></li>
             </ul>
     
         </div>
         
         <div className='Lang'>
+
+
+
              
                 <div className='icon'>
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -152,13 +158,61 @@ const Topbar = () => {
                 </div>
 
             <div className='lang_Button'>
-                <Dropdown as={ButtonGroup}>
+                <Dropdown as={ButtonGroup}
+
+                
+                              onSelect={(eventKey) => {
+                                if (eventKey === 'ar') {
+                                  document.documentElement.setAttribute('dir', 'rtl');
+                                  document.documentElement.setAttribute('lang', 'ar');
+                                  localStorage.setItem('i18nextLng', 'ar');
+                                  i18n.changeLanguage('ar');
+                                } else if(eventKey === 'tr') {
+                                  document.documentElement.setAttribute('dir', 'ltr');
+                                  document.documentElement.setAttribute('lang', 'tr');
+                                  localStorage.setItem('i18nextLng', 'tr');
+                                  i18n.changeLanguage('tr');
+                                }
+                                 else if(eventKey === 'en'){
+                                document.documentElement.setAttribute('dir', 'ltr');
+                                document.documentElement.setAttribute('lang', 'en');
+                                localStorage.setItem('i18nextLng', 'en');
+                                i18n.changeLanguage('en');
+                              }
+
+                              }}
+                
+
+                
+                >
                     <Dropdown.Toggle className='DropBtn'>
-                    <Dropdown.Item className='DropItem' >En</Dropdown.Item>
+
+                        {
+                            lang === "ar" ? (<Dropdown.Item className='DropItem' eventKey="ar">Ar</Dropdown.Item>):(null)
+                        }
+
+
+
+
+                        
                     </Dropdown.Toggle>
                     <Dropdown.Menu >
-                        <Dropdown.Item className='DropItem'>Ar</Dropdown.Item>
-                        <Dropdown.Item className='DropItem'>Tr</Dropdown.Item>
+
+
+                            {
+                            lang === "en" ? (<Dropdown.Item className='DropItem' eventKey="en">En</Dropdown.Item>):(null)
+                             }
+
+
+                            {
+                            lang === "tr" ? (<Dropdown.Item className='DropItem' eventKey="en" >En</Dropdown.Item>):(null)
+
+                             }
+
+                                            
+
+                        
+                        <Dropdown.Item className='DropItem' eventKey="tr" >Tr</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </div>

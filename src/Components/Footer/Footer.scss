@@ -26,10 +26,11 @@ footer{
         margin-top: 50px;
         .Logo{
             position: relative;
+            margin: 5px;
 
             img{
-                width: 133px;
-                height: 134.145px;
+                width: 140px;
+                height: 140px;
                 flex-shrink: 0;
                 position: relative;
 
@@ -37,6 +38,7 @@ footer{
         }
         .Content{
             position: relative;
+            margin: 5px;
 
             h4{
                 color: #A3A073;
@@ -74,6 +76,7 @@ footer{
             }
         }
         .Our_Compaines{
+            margin: 5px;
             h4{
                 color: #A3A073;
                 font-feature-settings: 'clig' off, 'liga' off;
@@ -85,10 +88,9 @@ footer{
 
             }
             hr{
-                width: 165px;
+                width: 120px;
                 height: 4px;
                 background: #A3A073;
-
 
             }
 
@@ -112,11 +114,12 @@ footer{
 
         }
         .social{
+            margin: 5px;
             h3{
                 color: #A3A073;
                 font-feature-settings: 'clig' off, 'liga' off;
                 font-family: Poppins;
-                font-size: 20px;
+                font-size: 19px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 18px; /* 90% */

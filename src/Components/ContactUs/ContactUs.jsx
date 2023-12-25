@@ -3,6 +3,10 @@ import "./ContactUs.scss"
 import { useTranslation } from 'react-i18next'
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 
 
@@ -11,6 +15,10 @@ const ContactUs = () => {
 const {t} = useTranslation()
 
   return (
+
+    <Container>
+
+
     <div className='Contact_Container'>
 
         <div className='Title_Section'>
@@ -22,8 +30,12 @@ const {t} = useTranslation()
             </div>
         </div>
 
-        <div className='Contact_us'>
 
+
+        <div className='Contact_us'>
+        <Row>
+
+        <Col xs={12} md={12} lg={12} xl={6} >
             <div className='Contact_inputs'>
                 <form>
                     <input className='input' type="text" placeholder='Enter Full Name' />
@@ -52,7 +64,9 @@ const {t} = useTranslation()
 
 
             </div>
+            </Col>
 
+            <Col xs={12} md={12} lg={12} xl={6}>
             <div className='Contact_social'>
 
                 <div className='social'>
@@ -144,8 +158,13 @@ const {t} = useTranslation()
                 </div>
 
             </div>
+            </Col>
+            </Row>
+
 
         </div>
+
+
 
 
 
@@ -153,6 +172,8 @@ const {t} = useTranslation()
         
         
         </div>
+        </Container>
+
   )
 }
 

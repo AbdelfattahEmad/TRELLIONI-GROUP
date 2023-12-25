@@ -34,8 +34,8 @@ const AboutNav = () => {
 
                     <li> <Link to="/Home" className='Link'>{t('Home')}</Link></li>
                     <li> <Link to="/About" className='Link'>{t('About')}</Link></li>
-                    <li> <Link className='Link'> {t('Compaines')}</Link></li>
-                    <li> <Link className='Link'>{t('Contact')}</Link></li>
+                    <li> <Link to="/comp" className='Link'> {t('Compaines')}</Link></li>
+                    <li> <Link to="/contact" className='Link'>{t('Contact')}</Link></li>
                 </ul>
 
             </div>

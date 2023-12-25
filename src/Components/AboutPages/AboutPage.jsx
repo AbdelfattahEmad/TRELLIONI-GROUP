@@ -3,12 +3,20 @@ import"./AboutPage.scss"
 import business1 from "../../assets/images/business1.png"
 import Frame29 from "../../assets/images/frame29.png"
 import { useTranslation } from 'react-i18next'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 
 
 const AboutPage = () => {
 
   const {t} =useTranslation()
   return (
+    
+    <Container>
+
     <div className='AboutPage'>
 
 
@@ -19,6 +27,8 @@ const AboutPage = () => {
 
       <div className='Descreption_Group'>
 
+          <Row>
+            <Col xs={12} sm={12} xl={6}>
               <div className='Descreption_item'>
 
 
@@ -57,7 +67,9 @@ const AboutPage = () => {
                     </p>
 
               </div>
+            </Col>
 
+              <Col xs={12} sm={12} xl={6}>
                 <div className='Descreption_img'>
 
 
@@ -79,9 +91,13 @@ const AboutPage = () => {
 
 
                 </div>
+              </Col>
+          </Row>
         </div>
 
     </div>
+
+    </Container>
   )
 }
 

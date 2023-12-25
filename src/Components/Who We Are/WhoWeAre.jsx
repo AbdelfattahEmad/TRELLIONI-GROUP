@@ -1,9 +1,11 @@
 import React from 'react'
 import "./WhoWeAre.scss"
-import Frame from "../../assets/images/Frame.png"
-import Frame1 from "../../assets/images/frame1.png"
-import Arrow from "../../assets/images/Arrow.png"
 import { useTranslation } from 'react-i18next'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 
 
 
@@ -11,7 +13,15 @@ const WhoWeAre = () => {
   const {t} = useTranslation()
 
   return (
+
+
+
+      <Container>  
+          
+  
+
     <div className='Head'>
+
         <div className='Title_Section'>
           <h2>  {t("WHO WE ARE")}</h2>
 
@@ -22,15 +32,18 @@ const WhoWeAre = () => {
 
         </div>
 
-
         <div className='Tile_Group'>
 
             <h3> {t("TRILLIONI GROUP")}</h3>
         </div>
 
 
+
+
         <div className='Desc_Head'>
 
+      <Row>
+      <Col  md={6}  xs={12}    >
         <div className='Desc'>
           <p>{t("Trillioni Group company operates in many fields and mainly targets African")} <br />
           {t(" markets along with other markets as it has many partners in many African")}<br />
@@ -47,8 +60,10 @@ const WhoWeAre = () => {
         </svg>
         </button>
         </div>
+      </Col>
 
 
+        <Col  md={6} xs={12}  >
         <div className='Image_Desc'>
 
         <svg width="456" height="456" viewBox="0 0 456 456" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,6 +132,8 @@ const WhoWeAre = () => {
 
 
         </div>
+        </Col>
+        </Row>
 
 
         </div>
@@ -125,6 +142,10 @@ const WhoWeAre = () => {
 
 
         </div>
+
+        
+
+        </Container>
 
 
 

@@ -1,3 +1,5 @@
+@import "../../assets//scss//utils/mixins";
+
 .Contact_Container{
     margin-top: 130px;
 
@@ -14,12 +16,37 @@
             font-family: Poppins;
             font-style: normal;
             font-weight: 600;
+            @include xs {
+                font-size: 70px;
+            }
+            @include sm {
+                font-size: 75px;
+
+
+            }
+            @include md {
+                font-size: 80px;
+
+            }
+
         }
 
         .image{
             position: absolute;
             top: 42%;
             left: 43%;
+
+            @include xs {
+                top: 44%;
+                left: 32%;
+    
+            }
+            @include sm {
+                top: 44%;
+                left: 28%;
+
+            }
+
             h3{
                 color: #A3A073;
                 text-align: center;
@@ -41,6 +68,8 @@
         align-items: center;
         justify-content: space-evenly;
         .Contact_inputs{
+            margin-inline-end: 30px;
+
             .input{
                 display: block;
                 color: #BBB;
@@ -127,6 +156,8 @@
 
         }
         .Contact_social{
+            margin-inline-start: 30px;
+
             .social{
                 display: flex;
                 align-items: center;

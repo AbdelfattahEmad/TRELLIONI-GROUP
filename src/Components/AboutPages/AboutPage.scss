@@ -1,3 +1,5 @@
+@import "../../assets//scss/utils/mixins";
+
 .AboutPage{
     margin-top: 90px;
     .Title{
@@ -10,11 +12,31 @@
             font-weight: 600;
             line-height: 18px; 
             margin: 130px 5px;
+            @include sm{
+                font-style: 30px;
+               
+        
+            }
+            @include xs{
+                font-style: 10px;
+
+                
+        
+            }
+        
+
 
 
             span{
                   color: #A3A073;
                   font-family: Poppins;
+                  @include xs{
+                    font-style: 10px;
+    
+                    
+            
+                }
+    
 
 
             }
@@ -74,11 +96,17 @@
 
             .images{
                 position: relative;
-
-                margin-inline-end: 200px;
-
+                margin-inline-end: 500px;
                 right: 56px;
                 bottom: 160px;
+                margin-top: 150px;
+                @include xs{
+                    margin-bottom: 250px;
+                }
+                @include sm{
+                    margin-bottom: 250px;
+                }
+
             
             .img_one{
                 width: 450px;

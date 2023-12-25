@@ -5,6 +5,8 @@ import Homepage from './Pages/Home/Homepage';
 import {Routes, Route} from "react-router-dom";
 import i18n from './i18n';
 import About from './Pages/About/About';
+import ContactUs from './Components/ContactUs/ContactUs';
+import Compaines from './Components/COMPAINES/Compaines';
 
 
 
@@ -41,6 +43,14 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path='/Home' element={<Homepage />} />
             <Route path='/About' element={<About />} />
+            <Route path='/comp' element={<Compaines />} />
+
+
+            
+            <Route path='/contact' element={<ContactUs />} />
+
+
+            
         </Routes>
 
 
