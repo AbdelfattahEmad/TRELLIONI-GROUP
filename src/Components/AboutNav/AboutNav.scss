@@ -1,3 +1,6 @@
+
+@import "../../assets//scss/utils/mixins";
+
 .Nav_Container{
     .Topbar_Container{
         display: flex;
@@ -14,6 +17,26 @@
                 width: 160px;
                 height: 70.19px;
                 flex-shrink: 0;
+
+                @include xs{
+                    width: 70px;
+                    height: 43.19px;
+                }
+    
+                @include sm{
+                    width: 80px;
+                    height: 48.19px;
+    
+    
+                }
+                @include md{
+                    width: 90px;
+                    height: 50.19px;
+    
+    
+    
+                }
+    
             }
         }
     
@@ -21,11 +44,28 @@
             color: #FFFFFF;
 
             .Link_head{
-                display: inline-flex;
+                display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 33px;
                 list-style: none;
+                @include xs{
+                    gap: 20px;
+                }
+    
+                @include sm{
+                    gap: 12px;
+                    padding: 0;
+                    margin: 0;
+
+    
+    
+                }
+                @include md{
+                    gap:30px
+    
+                }
+    
                 li{
                     &:hover{
                         border-bottom: 3px solid #FFFFFF;
@@ -39,6 +79,25 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: 18px; 
+
+                        @include xs{
+                            font-size: 10px;
+                        }
+            
+                        @include sm{
+                            width: 80px;
+                            height: 48.19px;
+            
+            
+                        }
+                        @include md{
+                            width: 90px;
+                            height: 50.19px;
+            
+            
+            
+                        }
+    
                     }
                 }
             }
@@ -58,6 +117,28 @@
             .icon{
                 margin-inline-end: 10px;
                 font-weight: 100;
+                svg{
+                    @include xs{
+                        width: 25px;
+                        height:25px ;
+                    }
+        
+                    @include sm{
+                        width: 35px;
+                        height:35px ;
+    
+        
+        
+                    }
+                    @include md{
+                        width: 45px;
+                        height:45px ;
+    
+        
+                    }
+        
+                }
+    
 
 
             }
@@ -75,6 +156,26 @@
                     border-radius: 8px;
                     color: #A3A073;
                     background: #FFFFFF;
+
+                    @include xs{
+                        padding: 4px 12px;
+    
+    
+                    }
+        
+                    @include sm{
+                        padding: 6px 15px;
+    
+        
+        
+                    }
+                    @include md{
+                        padding: 8px 20px;
+    
+        
+                    }
+        
+    
                     .Dropdown-Menu{
                         width: 20px;
                     } 

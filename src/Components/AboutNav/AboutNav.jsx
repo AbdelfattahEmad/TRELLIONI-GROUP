@@ -44,9 +44,9 @@ const AboutNav = () => {
                 
                 <div className='icon'>
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="25" cy="25" r="24.3857" stroke="white" stroke-width="1.22858"/>
-                        <path d="M23.889 32.4173C28.7982 32.4173 32.7778 28.4376 32.7778 23.5284C32.7778 18.6192 28.7982 14.6395 23.889 14.6395C18.9798 14.6395 15.0001 18.6192 15.0001 23.5284C15.0001 28.4376 18.9798 32.4173 23.889 32.4173Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M35.0004 34.6395L30.1671 29.8062" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="25" cy="25" r="24.3857" stroke="white" strokWidth="1.22858"/>
+                        <path d="M23.889 32.4173C28.7982 32.4173 32.7778 28.4376 32.7778 23.5284C32.7778 18.6192 28.7982 14.6395 23.889 14.6395C18.9798 14.6395 15.0001 18.6192 15.0001 23.5284C15.0001 28.4376 18.9798 32.4173 23.889 32.4173Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M35.0004 34.6395L30.1671 29.8062" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
 
                     </div>

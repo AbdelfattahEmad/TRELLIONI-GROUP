@@ -11,7 +11,7 @@
     .Logo{
         margin: 20px 25px;
 
-        svg{
+        img{
             @include xs{
                 width: 70px;
                 height: 43.19px;
@@ -68,7 +68,7 @@
                     color: #C4BD54;
                     text-align: center;
                     font-family: Poppins;
-                    font-size: 18px;
+                    font-size: 20px;
                     font-style: normal;
                     font-weight: 500;
                     line-height: 18px; 
@@ -245,11 +245,17 @@
             font-style: normal;
             font-weight: 500;
             @include xs{
-                font-size: 8px;
+                font-size: 12px;
+                width: 185px;
+                height: 55px;
+                
             }
 
             @include sm{
-                font-size: 10px;
+                font-size: 15px;
+                width: 200px;
+                height: 60px;
+            
 
 
             }
@@ -308,6 +314,29 @@
                 border: 1px solid #A3A073;
                 color: #FFFFFF;
             }
+
+            @include xs{
+                font-size: 12px;
+                width: 185px;
+                height: 55px;
+                
+            }
+
+            @include sm{
+                font-size: 15px;
+                width: 200px;
+                height: 60px;
+            
+
+
+            }
+            @include md{
+                font-size: 12px;
+
+
+
+            }
+
 
         }
 

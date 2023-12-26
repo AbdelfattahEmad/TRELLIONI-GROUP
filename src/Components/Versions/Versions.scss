@@ -1,33 +1,34 @@
 @import "../../assets//scss/utils/mixins";
 
 .Versions_container{
-    margin-top: 390px;
+    margin-top: 40px;
     background-image: url(../../assets/images/Artboard.png);
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;
     height: 600px;
-    @include sm{
+    @include xs{
         height: 1000px;
 
-    }
-    @include xs{
-        height: 1200px;
-
 
     }
+    @include sm{
+        height: 950px;
 
 
-    .Versions{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 30px;
-        padding: 18px;
-                    
+    }
+    @include md{
+        height: 800px;
+    }
+
+
+
+
          .Version_items{
             display: flex;
-            align-items: start;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 30px;
 
             .icon{
                 margin-inline-end: 8px;
@@ -61,7 +62,6 @@
             }
                  }
     }
-}
 
 
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import"./AboutPage.scss"
 import business1 from "../../assets/images/business1.png"
-import Frame29 from "../../assets/images/frame29.png"
 import { useTranslation } from 'react-i18next'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import second from "../../assets/images/second.png"
+
 
 
 
@@ -21,14 +22,16 @@ const AboutPage = () => {
 
 
       <div className='Title'>
+
         <h3><span> {t("ABOUT")}</span>{t("TRILLIONI GROUP")}</h3>
+
       </div>
 
 
       <div className='Descreption_Group'>
 
           <Row>
-            <Col xs={12} sm={12} xl={6}>
+            <Col xs={12} sm={12} md={12} xl={6}>
               <div className='Descreption_item'>
 
 
@@ -69,16 +72,14 @@ const AboutPage = () => {
               </div>
             </Col>
 
-              <Col xs={12} sm={12} xl={6}>
+              <Col xs={12} sm={12} md={12} xl={6}>
                 <div className='Descreption_img'>
 
 
                     <div className='images'>
 
 
-                      <img className='img_one' src={Frame29} alt='frame' />
-                      <img  className='img_two' src={Frame29} alt='frame' />
-                      <img  className='img_three' src={business1} alt='frame' />
+                      <img className='img_one' src={second} alt='frame' />
 
 
 

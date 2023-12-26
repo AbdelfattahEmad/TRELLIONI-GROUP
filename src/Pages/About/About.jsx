@@ -8,7 +8,7 @@ import Versions from '../../Components/Versions/Versions'
  const About = () => {
   return (
     
-    <div className='About_Header'>
+    <>
 
     <AboutNav /> 
     <AboutPage />
@@ -16,7 +16,7 @@ import Versions from '../../Components/Versions/Versions'
     <ContactUs />
     < Footer />
   
-    </div>
+    </>
   )
 }
 

@@ -10,15 +10,11 @@
             font-size: 50px;
             font-style: normal;
             font-weight: 600;
-            line-height: 18px; 
-            margin: 130px 5px;
             @include sm{
-                font-style: 30px;
-               
-        
+                font-size: 35px; 
             }
             @include xs{
-                font-style: 10px;
+                font-style: 45px;
 
                 
         
@@ -52,7 +48,6 @@
 
         .Descreption_item{
         p{
-            margin-inline-start: -225px;
             color: #191919;
             font-feature-settings: 'clig' off, 'liga' off;
             font-family: Poppins;
@@ -94,52 +89,7 @@
 
         .Descreption_img{
 
-            .images{
-                position: relative;
-                margin-inline-end: 500px;
-                right: 56px;
-                bottom: 160px;
-                margin-top: 150px;
-                @include xs{
-                    margin-bottom: 250px;
-                }
-                @include sm{
-                    margin-bottom: 250px;
-                }
 
-            
-            .img_one{
-                width: 450px;
-                height: 600px;
-                flex-shrink: 0;
-                fill: #A3A073;
-                position: absolute;
-                top: 25px;
-                right: -425px;
-                                                            
-
-            }
-
-            .img_two{
-                width: 450px;
-                height: 600px;
-                flex-shrink: 0;
-                fill: #A3A073;
-                position: absolute;
-                bottom: -575px;
-                left: 25px;
-                                    
-
-            }
-            .img_three{
-                width: 450px;
-                height: 600px;
-                flex-shrink: 0;
-                fill: #A3A073;
-                position: absolute;
-
-            }
-        }
         }
     }
 
