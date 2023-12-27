@@ -26,7 +26,7 @@ const {t} = useTranslation()
             <h2>{t("CONTACT")}</h2>
 
             <div className='image'>
-            <h3>{t("CONTACT US ")}</h3>
+            <h3>{t("CONTACT US")}</h3>
             </div>
         </div>
 
@@ -66,6 +66,7 @@ const {t} = useTranslation()
             </div>
             </Col>
 
+
             <Col xs={12} md={12} lg={12} xl={6}>
             <div className='Contact_social'>
 
@@ -94,7 +95,7 @@ const {t} = useTranslation()
                         </svg>
 
                     </div>
-                    <p>Phone: +905346073494  /  +905332844899</p>
+                    <p> {t("Phone")}: +905346073494  /  +905332844899</p>
                 </div>
 
 
@@ -112,7 +113,7 @@ const {t} = useTranslation()
                     </div>
                     
 
-                    <p>Email: info@trillioni.com</p>
+                    <p> {t("Email")}: info@trillioni.com</p>
                 </div>
 
 
@@ -136,7 +137,7 @@ const {t} = useTranslation()
                     </div>
                     
 
-                    <p>Email: trillionigroup@gmail.com</p>
+                    <p>{t("Email")}: trillionigroup@gmail.com</p>
                 </div>
 
                 <div className='social'>
@@ -154,7 +155,7 @@ const {t} = useTranslation()
 
                     </div>
     
-                    <p>Website: www.trillioni.com</p>
+                    <p>{t("Website")}: www.trillioni.com</p>
                 </div>
 
             </div>

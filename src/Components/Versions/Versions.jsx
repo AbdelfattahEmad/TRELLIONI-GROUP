@@ -28,12 +28,11 @@ const Versions = () => {
 
               </div>
             <div className='desc_Version'>
+
               <h3>{t("Our Vision")}</h3>
 
-              <p>{t("Trillioni Group is the balanced vision between")}<br />
+              <p>{t("VERSION ONE")}
 
-              {t("knowing the needs of the market and the")} <br />
-              {t("ability to cover its needs.")}
               
             </p>
             </div>
@@ -60,10 +59,9 @@ const Versions = () => {
 
 
                   <div className='desc_Version'>
-                    <h3>{t("Our Mission ")}</h3>
-                    <p>  {t("Trillioni Group's mission is to maintain a")}<br />
-                    {t("flexible, integrated business model and")}  <br />
-                    {t("performance that translates into prosperity..")}
+                    <h3>{t("Our Mission")}</h3>
+                    <p>  {t("VERSION TWO")}<br />
+                   
                     </p>
                   </div>
               </div>
@@ -83,18 +81,10 @@ const Versions = () => {
 
 
             <div className='desc_Version'>
-              <h3>{t("Philosophy ")}</h3>
+              <h3>{t("Philosophy")}</h3>
               <p> 
-                  {t(" Trillioni Group works on balancing science and")} <br />
-                  {t("business by understanding the concept of time")} <br />
-                  {t("as part of the basic structure of the universe,")}<br />
-                  {t("and realizes the potential power and dread of")}<br />
-                  {t("the present moment. And believes that work is")} <br />
-
-                  {t("the achiever of results, as the company devotes ")} <br />
-                  
-                  {t("its maximum capabilities to reach its goals and")} <br />
-                  {t("those of partners.")}
+              {t("VERSION THREE")}
+                
               </p>
             </div>
 
@@ -124,10 +114,7 @@ const Versions = () => {
 
                 <h3>{t("SCOPE OF BUSINESS")}</h3>
                 <p> 
-                  {t("Trillioni Group operates in agricultural crops it")}<br />
-                  {t("focuses on the sesame crop of various types ,")}<br />
-                  {t("white sesame, red sesame and Sudanese")} <br />
-                  {t("sesame.")}
+                {t("VERSION FOUR")}
 
                 </p>
               </div>

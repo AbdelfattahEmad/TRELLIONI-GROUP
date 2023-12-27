@@ -20,7 +20,7 @@ const Compaines = () => {
         <div className='Title_Section'>
            <h2>{t("COMPAINES")}</h2>
                 <div className='image'>
-        <h3>{t("OUR COMPAINES ")}</h3> 
+        <h3>{t("OUR COMPAINES")}</h3> 
 
                 </div>
 
@@ -69,10 +69,8 @@ const Compaines = () => {
             <div className='content'>
             
 
-            <h4>{t("TRILLIONI SESAME ")}</h4>
-            <p> {t("The areas of work of Trillion Group include")}<br/>
-              {t("various kinds, white sesame, red sesame and")}<br/>
-             {t("Sudanese sesame")} </p>
+            <h4>{t("TRILLIONI SESAME")}</h4>
+            <p>{t("TRILLIONI SESAME Desc")}</p>
 
               <div className='visit'>
                 <p><Link className='Link'>{t("Visit Website")}</Link> </p>
@@ -123,7 +121,6 @@ const Compaines = () => {
           </defs>
             </svg>
 
-
           </div>
           
 
@@ -131,11 +128,7 @@ const Compaines = () => {
 
 
           <h4>{t("TRILLIONI CHAD")}</h4>
-
-          <p> {t("Trillioni Group Export and Import is a company")}<br/>
-          {t("specialized in international trade; it deals in a")}<br/>
-          {t("wide range of diversified commodities.It")}
-          <br/> {t("headquartered in the Republic of Chad")} </p>
+          <p> {t("Trillioni CHAD DESC")} </p>
 
           <div className='visit'>
           <p><Link className='Link'>{t("Visit Website")}</Link> </p>
@@ -161,11 +154,8 @@ const Compaines = () => {
             </div>
 
             <div className='content'>
-            <h4>{t("TRILLIONI PHARMA ")}</h4>
-            <p> {t("Connecting Pharma Future, Redefining Tomorrow")}<br/>
-            {t(" within the next few years,we aspire to be")}<br/>
-            {t("recognized not just as a platform but as industry")}<br/>
-             {t("experts and trusted collaborators.")} </p>
+            <h4>{t("TRILLIONI PHARMA")}</h4>
+            <p>{t("Pharma DESC")}</p>
 
             <div className='visit'>
             <p><Link className='Link'>{t("Visit Website")}</Link> </p>

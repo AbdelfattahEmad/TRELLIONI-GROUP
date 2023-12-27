@@ -26,18 +26,18 @@ const Footer = () => {
 
 
         <Row >
-
-        <Col xs={12} sm={6} lg={3}>
-            <div className='Logo'>
-                <img src={Layer2} alt='logo' />
-            </div>
-        </Col>
+            <Col xs={12} sm={6} lg={3}>
+                <div className='Logo'>
+                    <img src={Layer2} alt='logo' />
+                </div>
+            </Col>
 
             <Col xs={12} sm={6} lg={3}>
                 <div className='Content'>
                 <h4>{t("Content")}</h4>
                     <hr />
                     <ul className='Content_items'>
+                    <li>{t("Home")}</li>
                         <li>{t("About")}</li>
                         <li> {t("Compaines")}</li>
                         <li> {t("Contact")}</li>
@@ -48,12 +48,12 @@ const Footer = () => {
 
             <Col xs={12} sm={6} lg={3}>
                 <div className='Our_Compaines'>
-                <h4>{t("COMPAINES ")}</h4>
+                <h4>{t("COMPAINES")}</h4>
                     <hr />
                     <ul className='Compaines_item'>
-                        <li> {t("Trillioni Sesame")}</li>
-                        <li> {t("Trillioni Chad")}</li>
-                        <li> {t("Trillioni Pharma")}</li>
+                        <li> {t("TRILLIONI SESAME")}</li>
+                        <li> {t("TRILLIONI CHAD")}</li>
+                        <li> {t("TRILLIONI PHARMA")}</li>
                         <li> {t("Trillionaire Signals")}</li>
                     </ul>
 
@@ -88,7 +88,7 @@ const Footer = () => {
 
         <hr className='hr'/>
         
-        <p className='p'>{t("Copyright © Trillioni Group | All Rights Reserved | Terms and Conditions | Privacy Policy")}</p>
+        <p className='p'>{t("FOOTER")}</p>
         
         </Container>
 
