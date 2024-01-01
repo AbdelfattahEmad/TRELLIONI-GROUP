@@ -21,7 +21,7 @@ const AboutPage = () => {
     <div className='AboutPage'>
 
 
-      <div className='Title'>
+      <div className='Title animate__animated animate__rotateInUpRight'>
 
         <h3><span> {t("ABOUT")}</span>{t("TRILLIONI GROUP")}</h3>
 
@@ -32,7 +32,7 @@ const AboutPage = () => {
 
           <Row>
             <Col xs={12} sm={12} md={12} xl={6}>
-              <div className='Descreption_item'>
+              <div className='Descreption_item animate__animated animate__fadeInTopLeft'>
 
 
                 <p><span>{t("Trillioni Group")}</span> {t("Trillioni ONE")} </p>                 
@@ -51,7 +51,7 @@ const AboutPage = () => {
             </Col>
 
               <Col xs={12} sm={12} md={12} xl={6}>
-                <div className='Descreption_img'>
+                <div className='Descreption_img animate__animated animate__fadeInTopRight'>
 
 
                     <div className='images'>

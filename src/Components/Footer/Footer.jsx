@@ -27,13 +27,13 @@ const Footer = () => {
 
         <Row >
             <Col xs={12} sm={6} lg={3}>
-                <div className='Logo'>
+                <div className='Logo animate__animated animate__flash'>
                     <img src={Layer2} alt='logo' />
                 </div>
             </Col>
 
             <Col xs={12} sm={6} lg={3}>
-                <div className='Content'>
+                <div className='Content animate__animated animate__flash'>
                 <h4>{t("Content")}</h4>
                     <hr />
                     <ul className='Content_items'>
@@ -47,7 +47,7 @@ const Footer = () => {
             </Col>
 
             <Col xs={12} sm={6} lg={3}>
-                <div className='Our_Compaines'>
+                <div className='Our_Compaines animate__animated animate__flash'>
                 <h4>{t("COMPAINES")}</h4>
                     <hr />
                     <ul className='Compaines_item'>
@@ -63,7 +63,7 @@ const Footer = () => {
 
             <Col xs={12} sm={6} lg={3}>
 
-            <div className='social'>
+            <div className='social animate__animated animate__flash'>
 
 
                 <h3>{t("SOCIAL MEDIA")}</h3>
@@ -86,9 +86,9 @@ const Footer = () => {
         </div>
         </div>
 
-        <hr className='hr'/>
+        <hr className='hr animate__animated animate__flash'/>
         
-        <p className='p'>{t("FOOTER")}</p>
+        <p className='p animate__animated animate__flash'>{t("FOOTER")}</p>
         
         </Container>
 

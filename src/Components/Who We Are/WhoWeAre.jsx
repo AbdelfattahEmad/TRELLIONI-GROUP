@@ -22,7 +22,7 @@ const WhoWeAre = () => {
 
     <div className='Head'>
 
-        <div className='Title_Section'>
+        <div className='Title_Section animate__animated animate__rotateInDownLeft '>
           <h2>  {t("WHO WE ARE")}</h2>
 
             <div className='image'>
@@ -32,7 +32,7 @@ const WhoWeAre = () => {
 
         </div>
 
-        <div className='Tile_Group'>
+        <div className='Tile_Group animate__animated animate__rotateIn '>
 
             <h3> {t("TRILLIONI GROUP")}</h3>
         </div>
@@ -43,8 +43,9 @@ const WhoWeAre = () => {
         <div className='Desc_Head'>
 
       <Row>
+
       <Col  md={6}  xs={12}>
-        <div className='Desc'>
+        <div className='Desc animate__animated animate__fadeInLeft animate__delay-2s'>
 
           <p>
             {t("whoDesc")}
@@ -61,7 +62,7 @@ const WhoWeAre = () => {
 
 
         <Col  md={6} xs={12}  >
-        <div className='Image_Desc'>
+        <div className='Image_Desc animate__animated animate__fadeInRight animate__delay-3s'>
 
             <svg width="456" height="456" viewBox="0 0 456 456" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect y="70.4317" width="385.568" height="385.568" rx="8" fill="#A3A073" fill-opacity="0.13"/>

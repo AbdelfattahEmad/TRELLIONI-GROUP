@@ -8,6 +8,9 @@ import './i18n.js'
 
 
 
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
