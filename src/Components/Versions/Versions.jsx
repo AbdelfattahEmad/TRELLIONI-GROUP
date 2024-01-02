@@ -3,6 +3,9 @@ import "./Versions.scss"
 import { useTranslation } from 'react-i18next'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+
+
 
 
 
@@ -14,6 +17,8 @@ const Versions = () => {
   return (
 
       <div className='Versions_container'> 
+
+      <Container>
        
         <Row>
 
@@ -126,7 +131,8 @@ const Versions = () => {
               </div>
             </Col>
 
-          </Row>
+        </Row>
+      </Container>
 
           
 

@@ -111,7 +111,7 @@ const AboutNav = () => {
 
             <div className='Toggle_Btn'>
               <Dropdown>
-              <Dropdown.Toggle  className='Drop_Toggle' >
+              <Dropdown.Toggle  className='Drop_Toggle_nav' >
               <FontAwesomeIcon icon={faBars} style={{color: "#C4BD54", marginRight: 10,cursor:"pointer" }} />
               </Dropdown.Toggle>
 

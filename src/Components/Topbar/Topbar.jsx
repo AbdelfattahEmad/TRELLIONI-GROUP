@@ -96,9 +96,9 @@ const Topbar = () => {
 
                     <Dropdown.Menu >
 
-                      <Dropdown.Item className='DropItem' eventKey="ar">Ar</Dropdown.Item>
-                            <Dropdown.Item className='DropItem' eventKey="en">En</Dropdown.Item>
-                              <Dropdown.Item className='DropItem' eventKey="tr" >Tr</Dropdown.Item>
+                      <Dropdown.Item as="button" className='DropItem' eventKey="ar">Ar</Dropdown.Item>
+                            <Dropdown.Item as="button" className='DropItem' eventKey="en">En</Dropdown.Item>
+                              <Dropdown.Item as="button" className='DropItem' eventKey="tr" >Tr</Dropdown.Item>
 
                     </Dropdown.Menu>
                 </Dropdown>
@@ -137,13 +137,18 @@ const Topbar = () => {
 
             </div>
 
-
     </div>
+
+
+
+
+
+
     
 
 
 
-    <div className='title  '>
+    <div className='title'>
         <img src={logo} alt="logo"  className=' animate__animated animate__flip animate__repeat-2'  />
          <p className='Logo_title animate__animated animate__heartBeat'>{t('WELCOME TO TRILLIONI GROUP')}</p>
     </div>

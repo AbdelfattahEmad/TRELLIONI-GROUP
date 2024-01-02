@@ -17,74 +17,66 @@ const Footer = () => {
   return (
     <footer>
             <Container>
-           
+        
+            <Row >
+                <Col xs={12} sm={6} lg={3}>
+                    <div className='Logo animate__animated animate__flash'>
+                        <img src={Layer2} alt='logo' />
+                    </div>
+                </Col>
+
+                <Col xs={12} sm={6} lg={3}>
+                    <div className='Content animate__animated animate__flash'>
+                    <h4>{t("Content")}</h4>
+                        <hr />
+                        <ul className='Content_items'>
+                        <li>{t("Home")}</li>
+                            <li>{t("About")}</li>
+                            <li> {t("Compaines")}</li>
+                            <li> {t("Contact")}</li>
+                        </ul>
+
+                    </div>
+                </Col>
+
+                <Col xs={12} sm={6} lg={3}>
+                    <div className='Our_Compaines animate__animated animate__flash'>
+                    <h4>{t("COMPAINES")}</h4>
+                        <hr />
+                        <ul className='Compaines_item'>
+                            <li> {t("TRILLIONI SESAME")}</li>
+                            <li> {t("TRILLIONI CHAD")}</li>
+                            <li> {t("TRILLIONI PHARMA")}</li>
+                            <li> {t("Trillionaire Signals")}</li>
+                        </ul>
+
+                    </div>
+                </Col>
 
 
-         
-        <div className='Head_Container'>
-        <div className='Head'>
+                <Col xs={12} sm={6} lg={3}>
+
+                <div className='social animate__animated animate__flash'>
 
 
-        <Row >
-            <Col xs={12} sm={6} lg={3}>
-                <div className='Logo animate__animated animate__flash'>
-                    <img src={Layer2} alt='logo' />
-                </div>
-            </Col>
-
-            <Col xs={12} sm={6} lg={3}>
-                <div className='Content animate__animated animate__flash'>
-                <h4>{t("Content")}</h4>
+                    <h3>{t("SOCIAL MEDIA")}</h3>
                     <hr />
-                    <ul className='Content_items'>
-                    <li>{t("Home")}</li>
-                        <li>{t("About")}</li>
-                        <li> {t("Compaines")}</li>
-                        <li> {t("Contact")}</li>
+
+                    <ul className='images'>
+                        <li><img src={Facebook} alt='FaceBook' /></li>
+                        <li><img src={Instagram} alt='instgram' /></li> 
+                        <li><img src={LinkedIn} alt='LinkedIn' /></li>
+                        <li><img src={YouTube} alt='Youtube' /></li>
+
                     </ul>
 
                 </div>
-            </Col>
+                </Col>
 
-            <Col xs={12} sm={6} lg={3}>
-                <div className='Our_Compaines animate__animated animate__flash'>
-                <h4>{t("COMPAINES")}</h4>
-                    <hr />
-                    <ul className='Compaines_item'>
-                        <li> {t("TRILLIONI SESAME")}</li>
-                        <li> {t("TRILLIONI CHAD")}</li>
-                        <li> {t("TRILLIONI PHARMA")}</li>
-                        <li> {t("Trillionaire Signals")}</li>
-                    </ul>
-
-                </div>
-            </Col>
+                </Row >
 
 
-            <Col xs={12} sm={6} lg={3}>
-
-            <div className='social animate__animated animate__flash'>
-
-
-                <h3>{t("SOCIAL MEDIA")}</h3>
-                <hr />
-
-                <ul className='images'>
-                    <li><img src={Facebook} alt='FaceBook' /></li>
-                    <li><img src={Instagram} alt='instgram' /></li> 
-                    <li><img src={LinkedIn} alt='LinkedIn' /></li>
-                    <li><img src={YouTube} alt='Youtube' /></li>
-
-                </ul>
-
-            </div>
-            </Col>
-
-            </Row >
-
-
-        </div>
-        </div>
+            
 
         <hr className='hr animate__animated animate__flash'/>
         
