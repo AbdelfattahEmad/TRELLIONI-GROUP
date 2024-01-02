@@ -2,6 +2,7 @@
 
 .Head_Compaines{
     margin-top: 70px;
+
     .Title_Section{
         text-align: center;
         margin-top: 30px;
@@ -12,7 +13,7 @@
             color: #eee;
             padding: 20px 6px;
             text-align: center;
-            font-family: Poppins;
+            ;
             font-style: normal;
             font-weight: 600;
             @include xs {
@@ -48,7 +49,7 @@
                     h3{
                 color: #A3A073;
                 text-align: center;
-                font-family: Poppins;
+                ;
                 font-size: 34px;
                 font-style: normal;
                 font-weight: 600;
@@ -78,6 +79,8 @@
             border: 0.5px solid rgba(163, 160, 115, 0.45);
             background: #FFF;
             margin:5px;
+            padding: 10px;
+
             .image{
                 text-align: center;
                 margin: 25px 3px;
@@ -103,7 +106,7 @@
                 h4{
                     color: #A3A073;
                     font-feature-settings: 'clig' off, 'liga' off;
-                    font-family: Poppins;
+                    ;
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 600;
@@ -116,7 +119,7 @@
                     color: #AFAFAF;
                     text-align: justify;
                     font-feature-settings: 'clig' off, 'liga' off;
-                    font-family: Poppins;
+                    ;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
@@ -138,7 +141,7 @@
                     p{
                         color: #161618;
                             font-feature-settings: 'clig' off, 'liga' off;
-                            font-family: Poppins;
+                            ;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 500;

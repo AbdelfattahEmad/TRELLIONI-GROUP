@@ -3,6 +3,9 @@ import "./Versions.scss"
 import { useTranslation } from 'react-i18next'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+
+
 
 
 
@@ -14,11 +17,13 @@ const Versions = () => {
   return (
 
       <div className='Versions_container'> 
+
+      <Container>
        
         <Row>
 
           <Col xs={12} sm={12} md={6}>
-            <div className='Version_items'>
+            <div className='Version_items animate__animated animate__fadeInTopLeft'>
               <div className='icon'>
               <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="84" height="84" rx="8" fill="#A3A073" fillOpacity="0.22"/>
@@ -46,7 +51,7 @@ const Versions = () => {
 
 
             <Col xs={12} sm={12} md={6}>
-              <div className='Version_items'>
+              <div className='Version_items animate__animated animate__fadeInTopRight'>
 
                   <div className='icon'>
                     <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,7 +73,7 @@ const Versions = () => {
             </Col>
 
           <Col xs={12} sm={12} md={6}>
-            <div className='Version_items'>
+            <div className='Version_items animate__animated animate__fadeInBottomLeft'>
               <div className='icon'>
                 <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="84" height="84" rx="8" fill="#A3A073" fillOpacity="0.22"/>
@@ -97,7 +102,7 @@ const Versions = () => {
             
 
             <Col xs={12} sm={12} md={6}>
-              <div className='Version_items'>
+              <div className='Version_items animate__animated animate__fadeInBottomRight'>
                 <div className='icon'>
 
                   <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -126,7 +131,8 @@ const Versions = () => {
               </div>
             </Col>
 
-          </Row>
+        </Row>
+      </Container>
 
           
 

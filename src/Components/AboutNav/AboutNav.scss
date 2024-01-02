@@ -74,7 +74,7 @@
                         text-decoration: none;
                         color: #FFFFFF;
                         text-align: center;
-                        font-family: Poppins;
+                        ;
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 500;
@@ -191,5 +191,52 @@
     
     
 
+
+}
+
+.Toggle_Btn{
+    display: none;
+    margin: 0px 10px;
+    font-size: 60px;
+    .dropdown-toggle::after {
+        display: none !important; 
+      }
+
+    @include md {
+        display: block;
+        font-size: 40px;
+    }
+
+    @include sm {
+        display: block;
+        font-size: 35px;
+
+    }
+    @include xs {
+        display: block;
+        font-size: 30px;
+
+    }
+
+    .Drop_Toggle_nav{
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        text-align: center;
+        padding: 11px 9px 8px 18px;
+        
+    }
+    .Menu_toggle{
+        padding: 15px;
+        text-align: center;
+        background-color: #fff4;
+      
+        width: 20px;
+
+        .Link{
+            text-decoration: none;
+            color: #C4BD54;
+        }
+    
+    }
 
 }

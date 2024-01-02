@@ -5,6 +5,7 @@
     align-items:center;
     justify-content: space-between;
     position: relative;
+    z-index: 1;
     
 
     
@@ -67,7 +68,7 @@
                     text-decoration: none;
                     color: #C4BD54;
                     text-align: center;
-                    font-family: Poppins;
+                    ;
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 500;
@@ -94,6 +95,16 @@
                 }
             }
         }
+        @include md {
+            display: none;
+        }
+        @include xs {
+            display: none;
+        }
+        @include sm {
+            display: none;
+        }
+
 
     }
 
@@ -101,6 +112,8 @@
         display: flex;
         align-items: center;
         margin-inline-end: 30px;
+    
+
 
         .icon{
             margin-inline-end: 10px;
@@ -140,6 +153,7 @@
                 gap:8px;
                 border-radius: 8px;
                 background: #C4BD54;
+    
 
                 @include xs{
                     padding: 4px 12px;
@@ -163,6 +177,8 @@
 
                 .Dropdown-Menu{
                     width: 20px;
+
+                    
                 } 
             }
             .DropItem{
@@ -176,7 +192,6 @@
 
 
     .title{
-        position: relative;
         text-align: center;
         margin-top: 35px;
         img{
@@ -187,7 +202,7 @@
             color: var(--Neutral-Colors-White, #FFF);
             text-align: center;
             color: #A3A073;
-            font-family: Poppins;
+            ;
             font-size: 55px;
             font-style: normal;
             font-weight: 700;
@@ -219,7 +234,6 @@
 
 
     .Contact_us{
-        position: relative;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -235,13 +249,12 @@
             box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
             margin-inline-end: 20px;
             margin-block-start: 20px;
-            font-size: 14px;
+            font-size: 13px;
             line-height: 18px; 
             border-radius: 8px;
             background: var(--Neutral-Colors-White, #FFF);
             color: #161618;
             border: 1px solid #FFF;
-            font-family: Poppins;
             font-style: normal;
             font-weight: 500;
             @include xs{
@@ -302,7 +315,7 @@
             background-color: transparent;
             color: #fff;
             border: 1px solid #FFF;
-            font-family: Poppins;
+            ;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
@@ -346,4 +359,51 @@
         position: relative;
         text-align: center;
         margin: 50px;
+    }
+
+    .Toggle_Btn{
+        display: none;
+        margin: 0px 10px;
+        font-size: 60px;
+        .dropdown-toggle::after {
+            display: none !important; 
+          }
+
+        @include md {
+            display: block;
+            font-size: 40px;
+        }
+
+        @include sm {
+            display: block;
+            font-size: 35px;
+
+        }
+        @include xs {
+            display: block;
+            font-size: 30px;
+
+        }
+
+        .Drop_Toggle{
+            background-color: #C4BD54;
+            border: 1px solid #C4BD54;
+            text-align: center;
+            padding: 11px 9px 8px 18px;
+            
+        }
+        .Menu_toggle{
+            padding: 15px;
+            text-align: center;
+            background-color: #fff4;
+          
+            width: 20px;
+
+            .Link{
+                text-decoration: none;
+                color: #C4BD54;
+            }
+        
+        }
+
     }

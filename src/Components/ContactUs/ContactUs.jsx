@@ -21,7 +21,7 @@ const {t} = useTranslation()
 
     <div className='Contact_Container'>
 
-        <div className='Title_Section'>
+        <div className='Title_Section animate__animated animate__heartBeat'>
             
             <h2>{t("CONTACT")}</h2>
 
@@ -32,11 +32,11 @@ const {t} = useTranslation()
 
 
 
-        <div className='Contact_us'>
+        <div className='Contact_us  '>
         <Row>
 
         <Col xs={12} md={12} lg={12} xl={6} >
-            <div className='Contact_inputs'>
+            <div className='Contact_inputs animate__animated animate__fadeInLeftBig'>
                 <form>
                     <input className='input' type="text" placeholder='Enter Full Name' />
                     <input className='input' type="text" placeholder='Enter E-mail' />
@@ -68,7 +68,7 @@ const {t} = useTranslation()
 
 
             <Col xs={12} md={12} lg={12} xl={6}>
-            <div className='Contact_social'>
+            <div className='Contact_social animate__animated animate__fadeInRightBig'>
 
                 <div className='social'>
                     <div className='icon'>

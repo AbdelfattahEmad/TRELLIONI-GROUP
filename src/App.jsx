@@ -7,11 +7,24 @@ import i18n from './i18n';
 import About from './Pages/About/About';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Compaines from './Components/COMPAINES/Compaines';
+import WOW from 'wow.js';
+import 'animate.css';
+  
 
 
 
 function App() {
 
+  useEffect(() => {
+    new WOW({
+      live: false
+    }).init();
+  }, [])
+  
+  
+  
+
+  
   const detectLangue = () => {
     const lang = localStorage.getItem('i18nextLng');
 

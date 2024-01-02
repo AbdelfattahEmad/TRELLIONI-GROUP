@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 const Compaines = () => {
 
   const {t} = useTranslation()
@@ -17,7 +18,7 @@ const Compaines = () => {
 
     <div className='Head_Compaines'>
 
-        <div className='Title_Section'>
+        <div className='Title_Section animate__animated animate__fadeInRight animate__delay-4s'>
            <h2>{t("COMPAINES")}</h2>
                 <div className='image'>
         <h3>{t("OUR COMPAINES")}</h3> 
@@ -32,7 +33,7 @@ const Compaines = () => {
         <Row>
 
         <Col  lg={4} md={6}  xs={12} >
-          <div className='Compaines_Card'>
+          <div className='Compaines_Card animate__animated animate__fadeInLeft animate__delay-3s ' >
 
               <div className='image'>
                 <svg width="132" height="133" viewBox="0 0 132 133" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +88,8 @@ const Compaines = () => {
 
 
           <Col  lg={4} md={12}  xs={12} >
-          <div className='Compaines_Card'>
+            
+          <div className='Compaines_Card  animate__animated animate__zoomInDown animate__delay-4s	 animate__bounce animate__repeat-2'>
 
           <div className='image'>
             <svg width="131" height="130" viewBox="0 0 131 130" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,7 +148,7 @@ const Compaines = () => {
 
 
             <Col   lg={4} md={12}  xs={12} >
-            <div className='Compaines_Card'>
+            <div className='Compaines_Card animate__animated animate__fadeInRight animate__delay-3s	' >
 
             <div className='image'>
             <img className='img3' src={logo1} alt='Image' />
